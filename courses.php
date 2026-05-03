@@ -1,0 +1,28 @@
+<?php
+$courses = [
+    [
+        'id' => 1,
+        'name' => 'Health & Safety',
+        'price' => 99,
+        'category' => 'safety',
+    ],
+    [
+        'id' => 2,
+        'name' => 'Food Safety',
+        'price' => 59,
+        'category' => 'safety',
+    ],
+    [
+        'id' => 3,
+        'name' => 'Safeguarding',
+        'price' => 20,
+        'category' => 'training',
+    ],
+    [
+        'id' => 4,
+        'name' => 'ACT',
+        'price' => 50,
+        'category' => 'training',
+    ],
+];
+?>
