@@ -34,7 +34,9 @@ $filtered_courses = array_filter($courses, function ($course) use ($category, $m
     $matches_category = !$category || $course['category'] === $category;
     $matches_min = ($min_price === null) || $course['price'] >= $min_price;
     $matches_max = ($max_price === null) || $course['price'] <= $max_price;
-    
+
     return $matches_category && $matches_min && $matches_max;
 });
+
+echo json_encode(array_values($filtered_courses));
 ?>
